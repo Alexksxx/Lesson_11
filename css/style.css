@@ -1,0 +1,101 @@
+@import "null.css";
+.wrapper{
+	padding: 0px 50px;
+}
+.header{
+	background-color: blueviolet;
+	text-align: center;
+	position: sticky;
+	top: 0px;
+	z-index: 6;
+	line-height: 50px;
+	border-radius: 10px;
+	box-shadow: inset -10px -10px 10px rgb(124, 124, 124);
+}
+.wrapper__logo{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.block-one {
+	max-width: 500px;
+	padding: 20px;
+	background-color: red;
+	position: relative;
+	z-index: 1;
+}
+.wrapper__block-one{
+margin: 0px auto;
+}
+.block-one__title {
+	font-size: 35px;
+	color: blue;
+}
+.block-one__text {
+	font-size: 20px;
+	color: #000;
+}
+.block-two {
+	background-color: orange;
+	padding: 10px;
+	max-width: 650px;
+	position: relative;
+	z-index: 3;
+	left: 300px;
+	bottom: 50px;
+}
+.block-two__title {
+	font-weight: 900;
+	font-size: 30px;
+}
+.block-two__text {
+	color: #fff;
+}
+.block-three {
+	background-color: yellow;
+	padding: 30px;
+	max-width: 550px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 5;
+}
+.block-three__title {
+	color: #fff;
+	font-weight: 700;
+}
+.block-three__text {
+	font-style: italic;
+	color: brown;
+}
+.boxes {
+	background-color: rgb(230, 239, 238);
+	position: relative;
+	padding: 50px;
+}
+.box-one {
+	max-width: 500px;
+	padding: 15px;
+	background-color: orange;
+}
+.text {
+	font-size: 19px;
+}
+.box-two {
+	max-width: 550px;
+	padding: 10px;
+	background-color: aqua;
+}
+.boxes__logo {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.logo {
+	width: 100%;
+	height: 100%;
+}
